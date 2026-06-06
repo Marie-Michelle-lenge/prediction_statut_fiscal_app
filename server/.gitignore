@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+
+# Local SQLite data
+data/*.sqlite3
+data/*.sqlite3-*
+
+# Model files (keep the actual model, ignore temp)
+*.pkl.tmp
+
+# OS
+.DS_Store
+Thumbs.db
